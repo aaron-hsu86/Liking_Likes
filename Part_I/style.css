@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: gray; */
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.top-half {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user {
+    font-size: 30px;
+}
+
+.likes {
+    margin-left: 50px;
+}
+
+.like-button {
+    background-color: yellow;
+    padding: 5px;
+    width: 50px;
+    font-weight: 600;
+    box-shadow: 3px 3px black;
+}
